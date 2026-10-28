@@ -18,9 +18,10 @@ public class CorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(Arrays.asList(
-                "http://localhost:5173",
-                "http://localhost:3000",
-                "https://real-estate-frontend-two-mu.vercel.app"
+        	    "http://localhost:5173",
+        	    "http://localhost:3000",
+        	    "https://real-estate-frontend-two-mu.vercel.app",
+        	    "https://real-estate-website.vercel.app"
         ));
 
         configuration.setAllowedMethods(Arrays.asList(
