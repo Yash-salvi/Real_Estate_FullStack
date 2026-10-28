@@ -21,7 +21,8 @@ public class CorsConfig {
         	    "http://localhost:5173",
         	    "http://localhost:3000",
         	    "https://real-estate-frontend-two-mu.vercel.app",
-        	    "https://real-estate-website.vercel.app"
+        	    "https://plotify-estate-platform.vercel.app"
+        	    
         ));
 
         configuration.setAllowedMethods(Arrays.asList(
