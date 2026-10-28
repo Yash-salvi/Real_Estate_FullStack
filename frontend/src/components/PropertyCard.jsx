@@ -22,7 +22,7 @@ const PropertyCard = ({ property, isFavorited, onFavoriteToggle }) => {
       if (url.startsWith('http://') || url.startsWith('https://')) {
         return url;
       }
-      return `http://localhost:8080${url}`;
+      return `https://realestate-backend-x1cl.onrender.com${url}`;
     }
     // Fallback card image
     return 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=600&q=80';

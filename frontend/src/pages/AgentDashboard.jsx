@@ -381,7 +381,7 @@ const AgentDashboard = () => {
                           <div className="flex items-center gap-3">
                             <div className="h-10 w-14 overflow-hidden rounded-md bg-slate-100 border">
                               <img
-                                src={property.imageUrls && property.imageUrls.length > 0 ? `http://localhost:8080${property.imageUrls[0]}` : 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=150&q=80'}
+                                src={property.imageUrls && property.imageUrls.length > 0 ? `https://realestate-backend-x1cl.onrender.com${property.imageUrls[0]}` : 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=150&q=80'}
                                 alt=""
                                 className="h-full w-full object-cover"
                               />

@@ -215,7 +215,7 @@ const PropertyDetails = () => {
   }
 
   const imagesList = property.imageUrls && property.imageUrls.length > 0
-    ? property.imageUrls.map(url => (url.startsWith('http://') || url.startsWith('https://') ? url : `http://localhost:8080${url}`))
+    ? property.imageUrls.map(url => (url.startsWith('http://') || url.startsWith('https://') ? url : `https://realestate-backend-x1cl.onrender.com${url}`))
     : ['https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80'];
 
   const prevImage = () => {
